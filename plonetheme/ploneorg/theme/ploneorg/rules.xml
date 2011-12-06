@@ -14,8 +14,9 @@
 	<append  content='/html/head/style' theme='/html/head' />
         <append  content='/html/head/link[@rel="kinetic-stylesheet"]' theme='/html/head' />
 	
-	<!-- Drop plone.css, we want the merged, compressed version from plone -->
+	<!-- Drop plone.css, we want the merged, compressed version from plone 
 	<drop theme='/html/head/link[@rel="stylesheet"]'/>
+    -->
 
 	<!-- Copy over the id/class attributes on the body tag, this is important
 	     for Kupu and per-section styling -->
