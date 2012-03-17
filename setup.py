@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 setup(
+    entry_points={
+        'z3c.autoinclude.plugin': 'target = plone', 
+    },
     name='plonetheme.ploneorg',
-    packages=find_packages(),
     namespace_packages=[
         'plonetheme',
     ],
-    entry_points={
-        'z3c.autoinclude.plugin': 'target = plone', 
-    }
+    packages=find_packages(),
     version='0.0.0',
 )
