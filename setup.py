@@ -8,5 +8,5 @@ setup(
     entry_points={
         'z3c.autoinclude.plugin': 'target = plone', 
     }
-    version='0.0.1',
+    version='0.0.0',
 )
