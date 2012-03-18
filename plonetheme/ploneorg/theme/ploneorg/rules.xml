@@ -7,7 +7,7 @@
     <theme href="theme.html" />
 
 	<replace content='/html/head/title' theme='/html/head/title' />
-	<replace content='/html/head/base' theme='/html/head/base' />
+	<append content='/html/head/base' theme='/html/head' />
 
 	<!-- Add in the Plone-created CSS and JS in addition to the static ones -->
 	<append  content='/html/head/script' theme='/html/head' />

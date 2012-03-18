@@ -412,7 +412,7 @@ div.splash {
 }
 
 #content div.splash a.pointer {
-	background: transparent 0 -115px url(++theme++plonetheme.ploneorg/static/images/sprite-ploneorg.png) no-repeat;
+	background: transparent 0 -115px url(static/images/sprite-ploneorg.png) no-repeat;
 	padding-left: 16px;
 	font-size: 115%;
 }
@@ -473,7 +473,7 @@ div.sidebar {
 	border-top: 1px solid #eee;
 	border-bottom: none;
 	font-weight: bold;
-	background: url(++theme++plonetheme.ploneorg/static/images/sprite-ploneorg.png) no-repeat;
+	background: url(static/images/sprite-ploneorg.png) no-repeat;
 	background-position: 0 -441px;
 	padding-left: 16px;
 	letter-spacing: -1px;
@@ -506,7 +506,7 @@ img.book-cover {
 #splash-frontpage {
 	min-height: 15.5em;
 	margin-right: 1em;
-	background: #205c90 0 -23px url(++theme++plonetheme.ploneorg/static/images/frontpage-image.png) no-repeat;
+	background: #205c90 0 -23px url(static/images/frontpage-image.png) no-repeat;
 }
 
 #splash-frontpage a {
@@ -523,7 +523,7 @@ img.book-cover {
 }
 
 #splash-download-package {
-	background: transparent 0 -495px url(++theme++plonetheme.ploneorg/static/images/sprite-ploneorg.png) no-repeat;
+	background: transparent 0 -495px url(static/images/sprite-ploneorg.png) no-repeat;
 	height: 130px;
 	margin-left: 2em;
 	position: relative;
@@ -539,7 +539,7 @@ img.book-cover {
 }
 
 #splash-download-plone {
-	background: transparent 0 -30px url(++theme++plonetheme.ploneorg/static/images/sprite-ploneorg.png) no-repeat !important;
+	background: transparent 0 -30px url(static/images/sprite-ploneorg.png) no-repeat !important;
 	height: 58px;
 	width: 310px;
 	margin: 10px 0 10px 260px;
@@ -832,7 +832,7 @@ div.box h1 {
 	margin: -0.625em -1em !important;
 	padding: 0 1em;
 	line-height: 2em;
-	background: #eee url(++theme++plonetheme.ploneorg/static/images/sprite-ploneorg.png) repeat-x;
+	background: #eee url(static/images/sprite-ploneorg.png) repeat-x;
 	background-position: 0 -163px;
 	font-size: 120%;
 }
@@ -1839,7 +1839,7 @@ dl.collapsedBlockCollapsible {
 
 dl.collapsedBlockCollapsible dt.collapsibleHeader {
 	float: none;
-	position: ++theme++plonetheme.ploneorg/static;
+	position: static;
 	margin: 0;
 	padding: 0 0 0 22px;
 	line-height: 1em;
@@ -1859,7 +1859,7 @@ dl.collapsedInlineCollapsible {
 }
 
 dl.collapsedInlineCollapsible dt.collapsibleHeader {
-	position: ++theme++plonetheme.ploneorg/static;
+	position: static;
 	float: none;
 	margin: 0;
 	padding: 0 0 0 22px;
@@ -2370,7 +2370,7 @@ dl.toc dd ol {
 
 #footer-logo {
 	float: left;
-	background-image: url(++theme++plonetheme.ploneorg/static/images/sprite-ploneorg.png);
+	background-image: url(static/images/sprite-ploneorg.png);
 	background-position: 0 -376px;
 	width: 114px;
 	height: 44px;
