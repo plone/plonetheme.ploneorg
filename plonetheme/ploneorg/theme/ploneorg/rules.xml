@@ -5,7 +5,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <theme href="theme.html" />
-    <theme href="wide.html" if-path="/plone.org/ /plone.org/products/ /plone.org/documentation/ /plone.org/documentation/kb/ /plone.org/support/"/>
+    <theme href="wide.html" if-path="/ /plone.org/ /products/ /plone.org/products/ /documentation/ /plone.org/documentation/ /documentation/kb/ /plone.org/documentation/kb/ /support/ /plone.org/support/"/>
 
     <!-- Disable theme for ZMI, etc. -->
     <notheme if-content="not(//*[@id='visual-portal-wrapper'])" />
@@ -26,8 +26,9 @@
     <prepend theme="/html/body" content="/html/body/@class" />
     <prepend theme="/html/body" content="/html/body/@id" />
 
-    <!-- Bring in the logo -->
+    <!-- Bring in the logo and search box -->
     <prepend theme='//*[@id="nav"]' content='//*[@id="portal-logo"]' />
+    <copy css:theme="#search" css:content="#portal-searchbox form" attributes="action" />
     
     <!-- Copy the main navigation -->
     <copy content='//*[@id="portal-globalnav"]/li'      theme='//*[@id="main-nav"]' />
