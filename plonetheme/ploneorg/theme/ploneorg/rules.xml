@@ -14,8 +14,8 @@
     <append content='/html/head/base' theme='/html/head' />
 
     <!-- Add in the Plone-created CSS and JS in addition to the static ones -->
-    <append  content='/html/head/script' theme='/html/head' />
     <append  content='/html/head/style' theme='/html/head' />
+    <append  content='/html/head/script' theme='/html/head' />
     <append  content='/html/head/link[@rel="kinetic-stylesheet"]' theme='/html/head' />
     
     <!-- Drop plone.css, we want the merged, compressed version from plone -->
