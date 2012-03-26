@@ -5,7 +5,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <theme href="theme.html" />
-    <theme href="wide.html" if-path="/ /plone.org/ /products/ /plone.org/products/ /documentation/ /plone.org/documentation/ /documentation/kb/ /plone.org/documentation/kb/ /support/ /plone.org/support/ /@@search/ /plone.org/@@search/"/>
+    <theme href="wide.html" if-path="/ /plone.org/ /products/ /plone.org/products/ /documentation/ /plone.org/documentation/ /documentation/kb/ /plone.org/documentation/kb/ /support/ /plone.org/support/ /@@search/ /plone.org/@@search/ /plone.org/community/ /community/"/>
 
     <!-- Disable theme for ZMI, etc. -->
     <notheme if-content="not(//*[@id='visual-portal-wrapper'])" />
