@@ -308,7 +308,7 @@ html, body {
 
 #nav-bar {
     clear: both;
-    background: url(/plone.org/nav_bg.png) repeat-x left bottom;
+    background: url(../images/nav_bg.png) repeat-x left bottom;
     border-top: 1px solid #dedede;
     border-right: 1px solid #dedede;
     border-bottom: 1px solid #a3a3a3;
@@ -342,7 +342,7 @@ ul.navigation li.active a {
 }
 
 #search-site {
-	background: transparent url(/plone.org/search.png) no-repeat;
+	background: transparent url(../images/search.png) no-repeat;
 	border: none;
 	height: 26px;
 	width: 213px;
