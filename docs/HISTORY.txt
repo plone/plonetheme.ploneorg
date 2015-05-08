@@ -2,6 +2,12 @@
 Changelog
 =========
 
+1.0 - 2015-05-08
+----------------
+
+- update links related to unused dev.plone.org
+  [vangheem]
+
 0.0.4 - 05/10/2012
 ------------------
 
